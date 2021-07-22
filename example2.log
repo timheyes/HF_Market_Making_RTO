@@ -1,0 +1,344 @@
+2020-03-22 13:03:43,845 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:03:43,845 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:04:28,264 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:04:28,264 [INFO   ] [APP] closing event loop
+2020-03-22 13:16:37,260 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:16:37,261 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:16:37,262 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished coro=<__start_autotrader() done, defined at /home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py:63> exception=OSError(19, 'No such device')>
+Traceback (most recent call last):
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py", line 69, in __start_autotrader
+    interface=info["Interface"])
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/util.py", line 29, in create_datagram_endpoint
+    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, bytes(mreq))
+OSError: [Errno 19] No such device
+2020-03-22 13:18:57,704 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 13:18:57,704 [INFO   ] [APP] closing event loop
+2020-03-22 13:19:02,671 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:19:02,671 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:19:02,673 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished coro=<__start_autotrader() done, defined at /home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py:63> exception=OSError(19, 'No such device')>
+Traceback (most recent call last):
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py", line 69, in __start_autotrader
+    interface=info["Interface"])
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/util.py", line 29, in create_datagram_endpoint
+    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, bytes(mreq))
+OSError: [Errno 19] No such device
+2020-03-22 13:21:42,815 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 13:21:42,816 [INFO   ] [APP] closing event loop
+2020-03-22 13:26:27,960 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:26:27,960 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:27:12,378 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:27:12,379 [INFO   ] [APP] closing event loop
+2020-03-22 13:28:49,768 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:28:49,769 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:29:34,188 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:29:34,189 [INFO   ] [APP] closing event loop
+2020-03-22 13:31:01,416 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:31:01,416 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:31:45,822 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:31:45,823 [INFO   ] [APP] closing event loop
+2020-03-22 13:46:35,246 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:46:35,246 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:47:19,668 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:47:19,669 [INFO   ] [APP] closing event loop
+2020-03-22 13:48:06,563 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:48:06,563 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:48:50,985 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:48:50,986 [INFO   ] [APP] closing event loop
+2020-03-22 13:50:32,819 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 13:50:32,819 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 13:51:17,240 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:51:17,241 [INFO   ] [APP] closing event loop
+2020-03-22 14:23:54,428 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:23:54,428 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:24:38,850 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:24:38,851 [INFO   ] [APP] closing event loop
+2020-03-22 14:27:24,973 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:27:24,973 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:28:09,393 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:28:09,393 [INFO   ] [APP] closing event loop
+2020-03-22 14:28:58,729 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:28:58,729 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:29:43,132 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:29:43,133 [INFO   ] [APP] closing event loop
+2020-03-22 14:32:53,394 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:32:53,394 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:33:37,818 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:33:37,819 [INFO   ] [APP] closing event loop
+2020-03-22 14:34:43,563 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:34:43,563 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:35:27,980 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:35:27,980 [INFO   ] [APP] closing event loop
+2020-03-22 14:36:46,790 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:36:46,790 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:37:31,199 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:37:31,200 [INFO   ] [APP] closing event loop
+2020-03-22 14:38:40,225 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:38:40,227 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:39:24,645 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:39:24,645 [INFO   ] [APP] closing event loop
+2020-03-22 14:40:15,808 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:40:15,808 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:41:00,226 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:41:00,226 [INFO   ] [APP] closing event loop
+2020-03-22 14:41:23,425 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:41:23,426 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:42:07,850 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:42:07,850 [INFO   ] [APP] closing event loop
+2020-03-22 14:47:20,996 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:47:20,996 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:48:05,412 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:48:05,413 [INFO   ] [APP] closing event loop
+2020-03-22 14:49:16,686 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:49:16,686 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:50:01,102 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:50:01,103 [INFO   ] [APP] closing event loop
+2020-03-22 14:51:10,444 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:51:10,445 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:51:54,864 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:51:54,865 [INFO   ] [APP] closing event loop
+2020-03-22 14:54:45,452 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:54:45,452 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:55:29,874 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:55:29,874 [INFO   ] [APP] closing event loop
+2020-03-22 14:56:38,755 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 14:56:38,755 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 14:57:23,173 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:57:23,173 [INFO   ] [APP] closing event loop
+2020-03-22 15:01:22,513 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:01:22,514 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:02:06,934 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:02:06,934 [INFO   ] [APP] closing event loop
+2020-03-22 15:03:00,885 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:03:00,886 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:03:45,306 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:03:45,306 [INFO   ] [APP] closing event loop
+2020-03-22 15:04:24,491 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:04:24,491 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:05:08,906 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:05:08,907 [INFO   ] [APP] closing event loop
+2020-03-22 15:08:13,645 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:08:13,646 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:08:58,064 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:08:58,064 [INFO   ] [APP] closing event loop
+2020-03-22 15:11:36,268 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:11:36,268 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:12:20,690 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:12:20,690 [INFO   ] [APP] closing event loop
+2020-03-22 15:14:07,945 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:14:07,946 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:14:52,355 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:14:52,356 [INFO   ] [APP] closing event loop
+2020-03-22 15:15:21,695 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:15:21,695 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:16:06,113 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:16:06,113 [INFO   ] [APP] closing event loop
+2020-03-22 15:16:40,205 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:16:40,205 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:17:24,625 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:17:24,625 [INFO   ] [APP] closing event loop
+2020-03-22 15:17:54,742 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:17:54,742 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:18:39,144 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:18:39,145 [INFO   ] [APP] closing event loop
+2020-03-22 15:19:43,131 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:19:43,132 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:20:27,547 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:20:27,548 [INFO   ] [APP] closing event loop
+2020-03-22 15:28:22,345 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:28:22,346 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:29:06,768 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:29:06,769 [INFO   ] [APP] closing event loop
+2020-03-22 15:29:41,141 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:29:41,142 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:30:25,563 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:30:25,563 [INFO   ] [APP] closing event loop
+2020-03-22 15:31:05,887 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:31:05,887 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:31:50,304 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:31:50,305 [INFO   ] [APP] closing event loop
+2020-03-22 15:33:02,740 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:33:02,740 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:33:47,160 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:33:47,160 [INFO   ] [APP] closing event loop
+2020-03-22 15:35:41,077 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:35:41,082 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:36:25,491 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:36:25,492 [INFO   ] [APP] closing event loop
+2020-03-22 15:37:39,265 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:37:39,265 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:38:23,692 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:38:23,692 [INFO   ] [APP] closing event loop
+2020-03-22 15:39:47,882 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:39:47,882 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:40:32,303 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:40:32,303 [INFO   ] [APP] closing event loop
+2020-03-22 15:41:09,262 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:41:09,262 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:41:53,684 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:41:53,685 [INFO   ] [APP] closing event loop
+2020-03-22 15:42:35,307 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:42:35,308 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:43:19,736 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:43:19,736 [INFO   ] [APP] closing event loop
+2020-03-22 15:44:18,541 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:44:18,541 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:45:02,964 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:45:02,965 [INFO   ] [APP] closing event loop
+2020-03-22 15:45:37,743 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:45:37,744 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:46:22,150 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:46:22,150 [INFO   ] [APP] closing event loop
+2020-03-22 15:46:58,049 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:46:58,050 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:47:42,466 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:47:42,467 [INFO   ] [APP] closing event loop
+2020-03-22 15:48:45,196 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:48:45,196 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:49:29,618 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:49:29,618 [INFO   ] [APP] closing event loop
+2020-03-22 15:50:40,335 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:50:40,335 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:51:24,756 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:51:24,756 [INFO   ] [APP] closing event loop
+2020-03-22 15:52:05,608 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:52:05,608 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:52:50,020 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:52:50,021 [INFO   ] [APP] closing event loop
+2020-03-22 15:53:27,545 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:53:27,545 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:54:11,964 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:54:11,965 [INFO   ] [APP] closing event loop
+2020-03-22 15:54:56,339 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:54:56,340 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:55:40,747 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:55:40,748 [INFO   ] [APP] closing event loop
+2020-03-22 15:57:20,905 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:57:20,907 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:58:05,324 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:58:05,325 [INFO   ] [APP] closing event loop
+2020-03-22 15:59:04,537 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 15:59:04,537 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 15:59:48,958 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:59:48,958 [INFO   ] [APP] closing event loop
+2020-03-22 16:00:11,800 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:00:11,800 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:00:12,322 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 16:00:12,322 [INFO   ] [APP] closing event loop
+2020-03-22 16:00:20,920 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:00:20,920 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:01:05,340 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:01:05,340 [INFO   ] [APP] closing event loop
+2020-03-22 16:01:40,112 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:01:40,112 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:02:24,520 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:02:24,520 [INFO   ] [APP] closing event loop
+2020-03-22 16:04:32,173 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:04:32,174 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:04:56,129 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 16:04:56,129 [INFO   ] [APP] closing event loop
+2020-03-22 16:05:29,781 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:05:29,781 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:06:14,185 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:06:14,185 [INFO   ] [APP] closing event loop
+2020-03-22 16:11:21,816 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:11:21,816 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:12:06,221 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:12:06,221 [INFO   ] [APP] closing event loop
+2020-03-22 16:21:33,810 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:21:33,810 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:22:18,228 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:22:18,228 [INFO   ] [APP] closing event loop
+2020-03-22 16:22:55,113 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:22:55,113 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:22:56,566 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 16:22:56,566 [INFO   ] [APP] closing event loop
+2020-03-22 16:23:11,832 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:23:11,833 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:23:56,257 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:23:56,257 [INFO   ] [APP] closing event loop
+2020-03-22 16:25:03,570 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:25:03,570 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:25:47,993 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:25:47,994 [INFO   ] [APP] closing event loop
+2020-03-22 16:27:13,975 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:27:13,975 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:27:58,398 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:27:58,399 [INFO   ] [APP] closing event loop
+2020-03-22 16:28:59,472 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:28:59,472 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:29:43,883 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:29:43,884 [INFO   ] [APP] closing event loop
+2020-03-22 16:30:14,875 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:30:14,875 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:30:59,298 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:30:59,299 [INFO   ] [APP] closing event loop
+2020-03-22 16:31:53,642 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:31:53,643 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:32:38,055 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:32:38,056 [INFO   ] [APP] closing event loop
+2020-03-22 16:33:16,685 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:33:16,692 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:34:01,103 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:34:01,104 [INFO   ] [APP] closing event loop
+2020-03-22 16:35:25,407 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:35:25,407 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:36:09,824 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:36:09,825 [INFO   ] [APP] closing event loop
+2020-03-22 16:36:32,937 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:36:32,937 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:37:17,344 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:37:17,344 [INFO   ] [APP] closing event loop
+2020-03-22 16:38:06,520 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:38:06,520 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:38:50,925 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:38:50,925 [INFO   ] [APP] closing event loop
+2020-03-22 16:39:34,564 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:39:34,564 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:40:18,985 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:40:18,985 [INFO   ] [APP] closing event loop
+2020-03-22 16:41:10,584 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:41:10,584 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:41:54,987 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:41:54,987 [INFO   ] [APP] closing event loop
+2020-03-22 16:42:36,558 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:42:36,559 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:43:20,981 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:43:20,981 [INFO   ] [APP] closing event loop
+2020-03-22 16:44:01,699 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:44:01,700 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:44:46,110 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:44:46,111 [INFO   ] [APP] closing event loop
+2020-03-22 16:45:33,538 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:45:33,538 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:46:17,956 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:46:17,956 [INFO   ] [APP] closing event loop
+2020-03-22 16:47:42,905 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:47:42,906 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:48:27,324 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:48:27,324 [INFO   ] [APP] closing event loop
+2020-03-22 16:49:02,217 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:49:02,217 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:49:46,640 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:49:46,640 [INFO   ] [APP] closing event loop
+2020-03-22 16:50:02,540 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:50:02,540 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:50:46,961 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:50:46,961 [INFO   ] [APP] closing event loop
+2020-03-22 16:51:21,153 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:51:21,153 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:52:05,577 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:52:05,578 [INFO   ] [APP] closing event loop
+2020-03-22 16:52:27,871 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:52:27,872 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:53:12,292 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:53:12,292 [INFO   ] [APP] closing event loop
+2020-03-22 16:53:41,147 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:53:41,147 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:54:25,564 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:54:25,565 [INFO   ] [APP] closing event loop
+2020-03-22 16:55:28,500 [INFO   ] [APP] example2 started with arguments={run.py}
+2020-03-22 16:55:28,500 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleTwo","Secret":"12345"}
+2020-03-22 16:56:12,922 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:56:12,922 [INFO   ] [APP] closing event loop

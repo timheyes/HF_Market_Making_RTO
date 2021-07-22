@@ -1,0 +1,538 @@
+2020-03-22 13:03:43,847 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:03:43,847 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:04:04,164 [WARNING] [TRADER] error with order 159: position limit breached
+2020-03-22 13:04:04,166 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:04:04,166 [INFO   ] [APP] closing event loop
+2020-03-22 13:16:37,260 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:16:37,261 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:16:37,262 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished coro=<__start_autotrader() done, defined at /home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py:63> exception=OSError(19, 'No such device')>
+Traceback (most recent call last):
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py", line 69, in __start_autotrader
+    interface=info["Interface"])
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/util.py", line 29, in create_datagram_endpoint
+    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, bytes(mreq))
+OSError: [Errno 19] No such device
+2020-03-22 13:18:57,704 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 13:18:57,704 [INFO   ] [APP] closing event loop
+2020-03-22 13:19:02,671 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:19:02,671 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:19:02,673 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished coro=<__start_autotrader() done, defined at /home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py:63> exception=OSError(19, 'No such device')>
+Traceback (most recent call last):
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/trader.py", line 69, in __start_autotrader
+    interface=info["Interface"])
+  File "/home/tim/Desktop/ready_trader_one/ready_trader_one/util.py", line 29, in create_datagram_endpoint
+    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, bytes(mreq))
+OSError: [Errno 19] No such device
+2020-03-22 13:21:42,815 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 13:21:42,816 [INFO   ] [APP] closing event loop
+2020-03-22 13:26:27,960 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:26:27,960 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:26:48,282 [WARNING] [TRADER] error with order 164: position limit breached
+2020-03-22 13:26:48,282 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:26:48,282 [INFO   ] [APP] closing event loop
+2020-03-22 13:28:49,768 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:28:49,769 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:29:10,046 [WARNING] [TRADER] error with order 151: position limit breached
+2020-03-22 13:29:10,056 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 13:29:10,057 [INFO   ] [APP] closing event loop
+2020-03-22 13:31:01,417 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:31:01,417 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:31:21,765 [WARNING] [TRADER] error with order 167: position limit breached
+2020-03-22 13:31:21,766 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 13:31:21,767 [INFO   ] [APP] closing event loop
+2020-03-22 13:46:35,246 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:46:35,246 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:46:55,549 [WARNING] [TRADER] error with order 158: position limit breached
+2020-03-22 13:46:55,551 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 13:46:55,551 [INFO   ] [APP] closing event loop
+2020-03-22 13:48:06,563 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:48:06,563 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:48:26,861 [WARNING] [TRADER] error with order 157: position limit breached
+2020-03-22 13:48:26,862 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:48:26,862 [INFO   ] [APP] closing event loop
+2020-03-22 13:50:32,819 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 13:50:32,819 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 13:50:53,146 [WARNING] [TRADER] error with order 156: position limit breached
+2020-03-22 13:50:53,147 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 13:50:53,147 [INFO   ] [APP] closing event loop
+2020-03-22 14:23:54,429 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:23:54,430 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:24:14,774 [WARNING] [TRADER] error with order 162: position limit breached
+2020-03-22 14:24:14,775 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:24:14,775 [INFO   ] [APP] closing event loop
+2020-03-22 14:27:24,973 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:27:24,973 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:27:45,030 [WARNING] [TRADER] error with order 134: position limit breached
+2020-03-22 14:27:45,031 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 14:27:45,032 [INFO   ] [APP] closing event loop
+2020-03-22 14:28:58,729 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:28:58,729 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:29:18,768 [WARNING] [TRADER] error with order 133: position limit breached
+2020-03-22 14:29:18,771 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 14:29:18,772 [INFO   ] [APP] closing event loop
+2020-03-22 14:32:53,392 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:32:53,393 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:33:13,697 [WARNING] [TRADER] error with order 159: position limit breached
+2020-03-22 14:33:13,698 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 14:33:13,699 [INFO   ] [APP] closing event loop
+2020-03-22 14:34:43,563 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:34:43,563 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:35:04,277 [WARNING] [TRADER] error with order 214: position limit breached
+2020-03-22 14:35:04,278 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:35:04,278 [INFO   ] [APP] closing event loop
+2020-03-22 14:36:46,791 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:36:46,791 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:37:12,113 [WARNING] [TRADER] error with order 686: position limit breached
+2020-03-22 14:37:12,113 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:37:12,113 [INFO   ] [APP] closing event loop
+2020-03-22 14:38:40,225 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:38:40,225 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:39:01,001 [WARNING] [TRADER] error with order 237: position limit breached
+2020-03-22 14:39:01,002 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:39:01,002 [INFO   ] [APP] closing event loop
+2020-03-22 14:40:15,804 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:40:15,805 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:40:36,511 [WARNING] [TRADER] error with order 211: position limit breached
+2020-03-22 14:40:36,513 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:40:36,513 [INFO   ] [APP] closing event loop
+2020-03-22 14:41:23,426 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:41:23,426 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:41:44,146 [WARNING] [TRADER] error with order 209: position limit breached
+2020-03-22 14:41:44,148 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:41:44,148 [INFO   ] [APP] closing event loop
+2020-03-22 14:47:20,995 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:47:20,995 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:47:45,573 [WARNING] [TRADER] error with order 586: position limit breached
+2020-03-22 14:47:45,574 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:47:45,574 [INFO   ] [APP] closing event loop
+2020-03-22 14:49:16,685 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:49:16,686 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:49:41,236 [WARNING] [TRADER] error with order 648: position limit breached
+2020-03-22 14:49:41,237 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:49:41,237 [INFO   ] [APP] closing event loop
+2020-03-22 14:51:10,445 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:51:10,445 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:51:31,146 [WARNING] [TRADER] error with order 231: position limit breached
+2020-03-22 14:51:31,146 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 14:51:31,147 [INFO   ] [APP] closing event loop
+2020-03-22 14:54:45,452 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:54:45,453 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:55:05,539 [WARNING] [TRADER] error with order 151: position limit breached
+2020-03-22 14:55:05,542 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 14:55:05,543 [INFO   ] [APP] closing event loop
+2020-03-22 14:56:38,756 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 14:56:38,756 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 14:57:03,329 [WARNING] [TRADER] error with order 989: position limit breached
+2020-03-22 14:57:03,333 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 14:57:03,334 [INFO   ] [APP] closing event loop
+2020-03-22 15:01:22,513 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:01:22,513 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:01:43,280 [WARNING] [TRADER] error with order 294: position limit breached
+2020-03-22 15:01:43,281 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:01:43,282 [INFO   ] [APP] closing event loop
+2020-03-22 15:03:00,884 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:03:00,885 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:03:21,584 [WARNING] [TRADER] error with order 276: position limit breached
+2020-03-22 15:03:21,585 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:03:21,585 [INFO   ] [APP] closing event loop
+2020-03-22 15:04:24,491 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:04:24,491 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:04:45,210 [WARNING] [TRADER] error with order 208: position limit breached
+2020-03-22 15:04:45,211 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:04:45,211 [INFO   ] [APP] closing event loop
+2020-03-22 15:08:13,645 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:08:13,646 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:08:42,595 [WARNING] [TRADER] error with order 902: position limit breached
+2020-03-22 15:08:42,597 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:08:42,598 [INFO   ] [APP] closing event loop
+2020-03-22 15:11:36,266 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:11:36,266 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:11:57,001 [WARNING] [TRADER] error with order 201: position limit breached
+2020-03-22 15:11:57,001 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:11:57,002 [INFO   ] [APP] closing event loop
+2020-03-22 15:14:07,948 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:14:07,949 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:14:28,705 [WARNING] [TRADER] error with order 167: position limit breached
+2020-03-22 15:14:28,709 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:14:28,711 [INFO   ] [APP] closing event loop
+2020-03-22 15:15:21,694 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:15:21,695 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:15:41,881 [WARNING] [TRADER] error with order 131: position limit breached
+2020-03-22 15:15:41,882 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:15:41,883 [INFO   ] [APP] closing event loop
+2020-03-22 15:16:40,201 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:16:40,202 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:17:00,392 [WARNING] [TRADER] error with order 137: position limit breached
+2020-03-22 15:17:00,394 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:17:00,395 [INFO   ] [APP] closing event loop
+2020-03-22 15:17:54,724 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:17:54,724 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:18:15,148 [WARNING] [TRADER] error with order 171: position limit breached
+2020-03-22 15:18:15,149 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:18:15,149 [INFO   ] [APP] closing event loop
+2020-03-22 15:19:43,126 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:19:43,126 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:20:03,901 [WARNING] [TRADER] error with order 213: position limit breached
+2020-03-22 15:20:03,901 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:20:03,902 [INFO   ] [APP] closing event loop
+2020-03-22 15:28:22,345 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:28:22,345 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:28:43,046 [WARNING] [TRADER] error with order 211: position limit breached
+2020-03-22 15:28:43,047 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:28:43,047 [INFO   ] [APP] closing event loop
+2020-03-22 15:29:41,142 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:29:41,142 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:30:01,967 [WARNING] [TRADER] error with order 203: position limit breached
+2020-03-22 15:30:01,969 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:30:01,969 [INFO   ] [APP] closing event loop
+2020-03-22 15:31:05,886 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:31:05,886 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:31:26,588 [WARNING] [TRADER] error with order 201: position limit breached
+2020-03-22 15:31:26,589 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:31:26,589 [INFO   ] [APP] closing event loop
+2020-03-22 15:33:02,748 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:33:02,748 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:33:23,462 [WARNING] [TRADER] error with order 197: position limit breached
+2020-03-22 15:33:23,466 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:33:23,467 [INFO   ] [APP] closing event loop
+2020-03-22 15:35:41,075 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:35:41,075 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:36:12,237 [WARNING] [TRADER] error with order 2266: position limit breached
+2020-03-22 15:36:12,239 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:36:12,239 [INFO   ] [APP] closing event loop
+2020-03-22 15:37:39,261 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:37:39,261 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:38:10,379 [WARNING] [TRADER] error with order 2447: position limit breached
+2020-03-22 15:38:10,380 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:38:10,380 [INFO   ] [APP] closing event loop
+2020-03-22 15:39:47,882 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:39:47,882 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:40:13,269 [WARNING] [TRADER] error with order 688: position limit breached
+2020-03-22 15:40:13,277 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:40:13,278 [INFO   ] [APP] closing event loop
+2020-03-22 15:41:09,262 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:41:09,263 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:41:29,433 [WARNING] [TRADER] error with order 133: position limit breached
+2020-03-22 15:41:29,434 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:41:29,434 [INFO   ] [APP] closing event loop
+2020-03-22 15:42:35,314 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:42:35,314 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:42:55,973 [WARNING] [TRADER] error with order 198: position limit breached
+2020-03-22 15:42:55,983 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:42:55,983 [INFO   ] [APP] closing event loop
+2020-03-22 15:44:18,554 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:44:18,554 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:44:39,221 [WARNING] [TRADER] error with order 201: position limit breached
+2020-03-22 15:44:39,225 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:44:39,226 [INFO   ] [APP] closing event loop
+2020-03-22 15:45:37,740 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:45:37,741 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:45:58,435 [WARNING] [TRADER] error with order 191: position limit breached
+2020-03-22 15:45:58,437 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:45:58,437 [INFO   ] [APP] closing event loop
+2020-03-22 15:46:58,049 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:46:58,049 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:47:18,735 [WARNING] [TRADER] error with order 209: position limit breached
+2020-03-22 15:47:18,735 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:47:18,736 [INFO   ] [APP] closing event loop
+2020-03-22 15:48:45,195 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:48:45,196 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:49:05,870 [WARNING] [TRADER] error with order 195: position limit breached
+2020-03-22 15:49:05,873 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:49:05,873 [INFO   ] [APP] closing event loop
+2020-03-22 15:50:40,335 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:50:40,335 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:51:01,026 [WARNING] [TRADER] error with order 195: position limit breached
+2020-03-22 15:51:01,030 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:51:01,030 [INFO   ] [APP] closing event loop
+2020-03-22 15:52:05,602 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:52:05,603 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:52:26,329 [WARNING] [TRADER] error with order 208: position limit breached
+2020-03-22 15:52:26,331 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:52:26,331 [INFO   ] [APP] closing event loop
+2020-03-22 15:53:27,545 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:53:27,545 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:53:47,533 [WARNING] [TRADER] error with order 124: position limit breached
+2020-03-22 15:53:47,534 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:53:47,534 [INFO   ] [APP] closing event loop
+2020-03-22 15:54:56,333 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:54:56,334 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:55:16,984 [WARNING] [TRADER] error with order 179: position limit breached
+2020-03-22 15:55:16,995 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 15:55:16,995 [INFO   ] [APP] closing event loop
+2020-03-22 15:57:20,903 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:57:20,903 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:57:41,536 [WARNING] [TRADER] error with order 182: position limit breached
+2020-03-22 15:57:41,541 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:57:41,541 [INFO   ] [APP] closing event loop
+2020-03-22 15:59:04,538 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 15:59:04,538 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 15:59:24,711 [WARNING] [TRADER] error with order 136: position limit breached
+2020-03-22 15:59:24,713 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 15:59:24,714 [INFO   ] [APP] closing event loop
+2020-03-22 16:00:11,799 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:00:11,799 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:00:12,322 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 16:00:12,322 [INFO   ] [APP] closing event loop
+2020-03-22 16:00:20,919 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:00:20,920 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:00:41,681 [WARNING] [TRADER] error with order 212: position limit breached
+2020-03-22 16:00:41,683 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:00:41,684 [INFO   ] [APP] closing event loop
+2020-03-22 16:01:40,110 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:01:40,110 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:02:00,873 [WARNING] [TRADER] error with order 209: position limit breached
+2020-03-22 16:02:00,874 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:02:00,874 [INFO   ] [APP] closing event loop
+2020-03-22 16:04:32,167 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:04:32,167 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:04:52,315 [WARNING] [TRADER] error with order 127: position limit breached
+2020-03-22 16:04:52,316 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:04:52,316 [INFO   ] [APP] closing event loop
+2020-03-22 16:05:29,763 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:05:29,764 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:05:49,899 [WARNING] [TRADER] error with order 130: position limit breached
+2020-03-22 16:05:49,903 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:05:49,903 [INFO   ] [APP] closing event loop
+2020-03-22 16:11:21,801 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:11:21,801 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:11:41,980 [WARNING] [TRADER] error with order 135: position limit breached
+2020-03-22 16:11:41,983 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:11:41,984 [INFO   ] [APP] closing event loop
+2020-03-22 16:21:33,828 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:21:33,828 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:21:54,520 [WARNING] [TRADER] error with order 222: position limit breached
+2020-03-22 16:21:54,522 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:21:54,522 [INFO   ] [APP] closing event loop
+2020-03-22 16:22:55,113 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:22:55,113 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:22:56,566 [INFO   ] [APP] SIGINT signal received - shutting down...
+2020-03-22 16:22:56,566 [INFO   ] [APP] closing event loop
+2020-03-22 16:23:11,834 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:23:11,835 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:23:32,567 [WARNING] [TRADER] error with order 211: position limit breached
+2020-03-22 16:23:32,568 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:23:32,568 [INFO   ] [APP] closing event loop
+2020-03-22 16:25:03,568 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:25:03,569 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:25:24,279 [WARNING] [TRADER] error with order 222: position limit breached
+2020-03-22 16:25:24,281 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:25:24,282 [INFO   ] [APP] closing event loop
+2020-03-22 16:27:13,975 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:27:13,976 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:27:34,624 [WARNING] [TRADER] error with order 190: position limit breached
+2020-03-22 16:27:34,629 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:27:34,629 [INFO   ] [APP] closing event loop
+2020-03-22 16:28:59,466 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:28:59,466 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:29:29,334 [WARNING] [TRADER] error with order 864: position limit breached
+2020-03-22 16:29:29,335 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:29:29,335 [INFO   ] [APP] closing event loop
+2020-03-22 16:30:14,874 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:30:14,875 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:30:35,031 [WARNING] [TRADER] error with order 133: position limit breached
+2020-03-22 16:30:35,033 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:30:35,033 [INFO   ] [APP] closing event loop
+2020-03-22 16:31:53,645 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:31:53,645 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:32:14,326 [WARNING] [TRADER] error with order 206: position limit breached
+2020-03-22 16:32:14,328 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:32:14,328 [INFO   ] [APP] closing event loop
+2020-03-22 16:33:16,686 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:33:16,686 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:33:37,363 [WARNING] [TRADER] error with order 193: position limit breached
+2020-03-22 16:33:37,370 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:33:37,371 [INFO   ] [APP] closing event loop
+2020-03-22 16:35:25,406 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:35:25,406 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:35:45,544 [WARNING] [TRADER] error with order 126: position limit breached
+2020-03-22 16:35:45,545 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:35:45,545 [INFO   ] [APP] closing event loop
+2020-03-22 16:36:32,929 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:36:32,930 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:36:53,625 [WARNING] [TRADER] error with order 201: position limit breached
+2020-03-22 16:36:53,626 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:36:53,626 [INFO   ] [APP] closing event loop
+2020-03-22 16:38:06,516 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:38:06,516 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:38:27,285 [WARNING] [TRADER] error with order 203: position limit breached
+2020-03-22 16:38:27,286 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:38:27,286 [INFO   ] [APP] closing event loop
+2020-03-22 16:39:34,566 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:39:34,566 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:39:55,293 [WARNING] [TRADER] error with order 203: position limit breached
+2020-03-22 16:39:55,294 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:39:55,294 [INFO   ] [APP] closing event loop
+2020-03-22 16:41:10,592 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:41:10,592 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:41:35,172 [WARNING] [TRADER] error with order 566: position limit breached
+2020-03-22 16:41:35,172 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:41:35,172 [INFO   ] [APP] closing event loop
+2020-03-22 16:42:36,558 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:42:36,558 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:42:57,236 [WARNING] [TRADER] error with order 198: position limit breached
+2020-03-22 16:42:57,237 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:42:57,237 [INFO   ] [APP] closing event loop
+2020-03-22 16:44:01,690 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:44:01,690 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:44:22,385 [WARNING] [TRADER] error with order 197: position limit breached
+2020-03-22 16:44:22,385 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:44:22,385 [INFO   ] [APP] closing event loop
+2020-03-22 16:45:33,539 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:45:33,539 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:45:54,198 [WARNING] [TRADER] error with order 200: position limit breached
+2020-03-22 16:45:54,203 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:45:54,204 [INFO   ] [APP] closing event loop
+2020-03-22 16:47:42,906 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:47:42,907 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:48:03,639 [WARNING] [TRADER] error with order 204: position limit breached
+2020-03-22 16:48:03,640 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:48:03,640 [INFO   ] [APP] closing event loop
+2020-03-22 16:49:02,217 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:49:02,217 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:49:22,922 [WARNING] [TRADER] error with order 192: position limit breached
+2020-03-22 16:49:22,923 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:49:22,924 [INFO   ] [APP] closing event loop
+2020-03-22 16:50:02,538 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:50:02,539 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:50:23,210 [WARNING] [TRADER] error with order 199: position limit breached
+2020-03-22 16:50:23,214 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:50:23,214 [INFO   ] [APP] closing event loop
+2020-03-22 16:51:21,153 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:51:21,153 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:51:41,609 [WARNING] [TRADER] error with order 169: position limit breached
+2020-03-22 16:51:41,611 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:51:41,611 [INFO   ] [APP] closing event loop
+2020-03-22 16:52:27,872 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:52:27,873 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:52:48,562 [WARNING] [TRADER] error with order 194: position limit breached
+2020-03-22 16:52:48,565 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:52:48,566 [INFO   ] [APP] closing event loop
+2020-03-22 16:53:41,138 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:53:41,138 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:54:05,864 [WARNING] [TRADER] error with order 502: position limit breached
+2020-03-22 16:54:05,866 [INFO   ] [TRADER] lost connection on execution channel
+2020-03-22 16:54:05,867 [INFO   ] [APP] closing event loop
+2020-03-22 16:55:28,500 [INFO   ] [APP] example1 started with arguments={run.py}
+2020-03-22 16:55:28,500 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"AllowBroadcast":false,"Interface":"0.0.0.0","ListenAddress":"239.255.1.1","Port":12346},"TeamName":"ExampleOne","Secret":"qwerty"}
+2020-03-22 16:55:49,225 [WARNING] [TRADER] error with order 200: position limit breached
+2020-03-22 16:55:49,227 [ERROR  ] [TRADER] lost connection on execution channel:
+Traceback (most recent call last):
+  File "/home/tim/anaconda3/envs/autotrader/lib/python3.6/asyncio/selector_events.py", line 714, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2020-03-22 16:55:49,227 [INFO   ] [APP] closing event loop
